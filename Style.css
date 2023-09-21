@@ -1,0 +1,132 @@
+
+/* estilos para dispositivos mobiles */
+
+/*stylo header*/
+
+.navbar navbar-expand-lg navbar-light bg-light{
+  width: 30px;
+  height:auto;
+}
+.logo{
+  width: 50%;
+  height: auto;
+  margin-left: 150px;
+  
+}
+
+/* stylo para seccion inicio y contenedor */
+
+.contenedor {
+    position: relative; /* Establece el contexto de posicionamiento */
+    width: auto; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Ajusta la altura según tus necesidades */
+  }
+  
+  img {
+    width: 100%; /* Ajusta el ancho de la imagen para que se ajuste al contenedor */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+  
+  .sdij {
+    font-family: Yanone Kaffeesatz, sans-serif;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px
+  }
+  
+  .sdij-r1 {
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 0.8em;
+  }
+  
+  .sdij-r2 {
+    font-size: 40px;
+    line-height: 0.9em;
+    padding-left: 0.05em;
+    font-weight: 200;
+  }
+
+
+#management{
+
+    width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.ml14 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom:  30px;
+    text-align: center;
+  }
+
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+/*Style carruousel*/
+
+#miCarrusel{
+    text-align: center;
+}
+
+
+/*stylo contacto*/
+
+.container {
+    width: auto;
+    height: auto;
+}
+.container h2 {
+   margin-top: 20px;
+   font-size: 30px;
+   font-family: 'Dosis', sans-serif;
+   text-align: center;
+}
+.btn-primary {
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+
+/*Style Footer*/
+
+.footer{
+  text-align: center;
+
+}
+
+/* Estilos para tabletas (768px en adelante) */
+
+
+
