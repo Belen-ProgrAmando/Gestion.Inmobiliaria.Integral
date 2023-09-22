@@ -22,11 +22,11 @@
 
 
 </head>
-<body style="background-color: #CDAAA7;">
+<body style="background-color:#DFDFDF;">
 
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://www.ejemplo.com">
+        <a class="navbar-brand" href="https://www.ejemplo.com"> 
         
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,26 +58,27 @@
 
     <section id="inicio">
     <div class="contenedor">
-    <img src="StudioMobile.jpg">
+    <img src="1.jpg">
     </div>  
     </section>
 
-    <section id="conteiner">
+    <section id="subtitulo">
        
-    <div class="sdij">
-  <h1 class="sdij-r1">Encuentra la Propiedad que Buscas</h1>
-  <h1 class="sdij-r2">con Nosotros</h1>
-     </div>
+   <div class="sdij">
+   <h1 class="sdij-r1">Encuentra la Propiedad que Buscas con Nosotros</h1>
+   
+   </div>
     
-        <img id= "management" src="management.png"></img>
+        <img id= "management" src="management1.jpg"></img>
     </section>
 
     <h1 class="ml14">
-  <span class="text-wrapper">
-    <span class="letters">Propiedades Destacadas</span>
+    <span class="text-wrapper">
+    <span class="letters">Propiedades</span>
+    <span class="letters">Destacadas</span>
     <span class="line"></span>
-  </span>
-</h1>
+    </span>
+    </h1>
 
     <section id="propiedades">
 
@@ -168,7 +169,7 @@
    <script src="Anime.js"></script> 
 
     <footer>
-        <p class="footer">&copy; 2023 Belen barrientos</p>
+        <p class="footer">copyright &copy;2023 Belen barrientos</p>
     </footer>
 </body>
 </html>
