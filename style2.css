@@ -1,0 +1,123 @@
+
+/*Stilo header*/
+
+.imagen{
+    width:100%;
+    height: auto;
+}
+
+#navbarNav{
+    width: 100%;
+    height: auto;
+    
+  }
+  .navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-item{
+    width: 80%;
+    height: auto;
+    margin-left: 60px;
+    font-size: 30px;
+   
+  }
+ 
+
+  .row{
+    width: 100%; 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .card{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imagen{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #propiedades{
+    width: 100%;
+    height: auto;
+  }
+
+  #propiedades h1{
+    text-align: center;
+    margin-top:60px;
+    font-size: 30px;
+   
+  }
+
+  hr{
+    width: 20%;
+    height: auto;
+    background-color: black;
+  }
+
+  .card-body2{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#CDAAA7;
+    margin-top: 60px;
+    
+  }
+
+  .card-title2{
+    margin-top:60px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .card-text2{
+    text-align: center;
+    font-size:20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+
+  #informacion{
+    width:100%;
+    height: auto;
+  }
+  .info {
+    width: 60%;
+    height: auto;
+    text-align: left;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 60px;
+}
+.info h2 {
+   margin-top: 20px;
+   margin-bottom: 40px;
+   font-size: 30px;
+   font-family: 'Dosis', sans-serif;
+   text-align: center;
+  
+}
+.btn-primary {
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+
+  .footer{
+    width: 100%;
+    height: auto;
+    margin-top:60px
+    padding: 20px;
+    text-align: center;
+  
+  }
