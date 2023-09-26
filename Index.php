@@ -19,32 +19,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
 
 
 </head>
 <body style="background-color:#DFDFDF;">
-
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://www.ejemplo.com"> 
-        
-        </a>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" >
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <span class="logo"><img src="Gestion Inmobiliaria.jpg" ></span>
+        
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Servicios de Gestion">Servicios de Gestion</a>
+                    <a class="nav-link" href="#Servicios">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pisos y Apartamentos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Habitaciones">Habitaciones</a>
+                    <a class="nav-link" href="Alquileres.html">Alquileres</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Contacto">Contacto</a>
@@ -52,9 +48,9 @@
             </ul>
         </div>
     </nav>
+</header>    
     
-    </header>
-    <main>
+<main>
 
     <section id="inicio">
     <div class="contenedor">
@@ -62,14 +58,16 @@
     </div>  
     </section>
 
-    <section id="subtitulo">
+    <section id="Servicios">
        
    <div class="sdij">
    <h1 class="sdij-r1">Encuentra la Propiedad que Buscas con Nosotros</h1>
    
    </div>
     
-        <img id= "management" src="management1.jpg"></img>
+    <div id="contenido.management">
+      <img class= "management" src="management1.jpg"></img>
+    </div>
     </section>
 
     <h1 class="ml14">
@@ -136,7 +134,7 @@
   </a>
 </div>
  
-
+<section id="Contacto">
 <div class="container">
   <h2>Contacto</h2>
   <form action="procesar.php" method="post">
@@ -155,18 +153,19 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 </div>
-
+    </section>
 
 </main>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-   <script src="Anime.js"></script> 
+    <script src="Anime.js"></script> 
 
     <footer>
         <p class="footer">copyright &copy;2023 Belen barrientos</p>

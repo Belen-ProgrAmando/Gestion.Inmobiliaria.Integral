@@ -3,75 +3,91 @@
 
 /*stylo header*/
 
-
-.navbar navbar-expand-lg navbar-light bg-light{
-  width: 30px;
-  height:auto;
+#navbarNav{
+  width: 100%;
+  height: auto;
   
 }
-.logo{
-  width: 50%;
+.navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-item{
+  width: 80%;
   height: auto;
-  margin-left: 150px;
+  margin-left: 60px;
+  font-size: 30px;
+ 
+}
+
+.logo{
+  width:20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
   
 }
 
 /* stylo para seccion inicio y contenedor */
 
+.inicio{
+  width: 100%;
+  height: auto;
+
+}
 .contenedor {
-    width: 100%; /* Ajusta el ancho según tus necesidades */
-    height: auto; /* Ajusta la altura según tus necesidades */
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; 
   }
   
   img {
-    width: 100%; /* Ajusta el ancho de la imagen para que se ajuste al contenedor */
+    width: 100%; 
     height: auto;
     margin-left: auto;
-    margin-right: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-right: auto; 
   }
 
-  #subtitulo{
+  .management{
     width: 100%;
     height: auto;
-    text-align: center;
-
+   padding: 20px;
+  
   }
   
   .sdij {
+
     font-family: Yanone Kaffeesatz, sans-serif;
     color: black;
     background-size: cover;
     text-transform: uppercase;
     margin-top: 20px;
-    margin-bottom: 10px
-   
+  
   }
   
   .sdij-r1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 0.8em;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    
+    margin-top: 20px;
+    text-align: center;
   }
+#contenido.management{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
 
-#management{
-
-    width: 90%;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-   
-    
-    
 }
 
 .ml14 {
+    width: 100%;
+    height: auto;
     font-weight: 100;
-    font-size: 60px;
-    margin-top: 70px;
-    margin-bottom:  30px;
+    font-size: 40px;
     text-align: center;
    
   }
@@ -90,7 +106,9 @@
     position: absolute;
     left: 0;
     height: 2px;
-    width: 100%;
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: #fff;
     transform-origin: 100% 100%;
     bottom: 0;
@@ -105,7 +123,8 @@
 
 #propiedades{
   width: 100%;
-  
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   padding: 20px;
 }
@@ -142,10 +161,13 @@
 /*Style Footer*/
 
 .footer{
+  width: 100%;
   padding: 20px;
   text-align: center;
 
 }
+
+/*Style Pagina Servicios*/
 
 
 
