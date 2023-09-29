@@ -19,6 +19,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     
 
 
@@ -137,21 +139,32 @@
 <section id="Contacto">
 <div class="container">
   <h2>Contacto</h2>
-  <form action="procesar.php" method="post">
+  <form method="POST" action="enviar_consulta.php">
     <div class="form-group">
-      <label for="nombre">Nombre:</label>
-      <input type="text" class="form-control" id="nombre" name="nombre">
+      <label for="nombre">Nombre y Apellido:</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" required maxlength="50">
     </div>
     <div class="form-group">
       <label for="email">Correo electrónico:</label>
-      <input type="email" class="form-control" id="email" name="email">
+      <input type="email" class="form-control" id="email" name="email" required maxlength="100">
+    </div>
+    <div class="form-group">
+      <label for="telefono">Telefono:</label>
+      <input type="telefono" class="form-control" id="telefono" name="telefono" required maxlength="30">
     </div>
     <div class="form-group">
       <label for="mensaje">Mensaje:</label>
-      <textarea class="form-control" id="mensaje" name="mensaje" rows="4"></textarea>
+      <textarea class="form-control" id="mensaje" name="mensaje" rows="10" required></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
+
+  <?php
+   if (isset($_GET['e']))
+   echo "<h3>¡Consulta Enviada!</h3>";
+  ?>
+
+
 </div>
     </section>
 
@@ -167,8 +180,42 @@
 
     <script src="Anime.js"></script> 
 
-    <footer>
-        <p class="footer">copyright &copy;2023 Belen barrientos</p>
-    </footer>
+    <footer id="footer">
+
+        <div class="column">
+            <h3>Contactanos</h3> 
+            <p><i class="fas fa-phone"></i>    +34 634 9455 93</p>
+            <p><i class="fas fa-map-marker"></i>    Cardenal Almaraz, Salamanca. Cp. 37003 </p>
+            <p><i class="fas fa-envelope"></i>    belenbarrientos.0706@gmail.com </p>
+            
+        </div>
+        <div class="column">
+            <h3 >Redes Sociales</h3>
+            <nav id="redes">
+	          <ul id="botones_redes">
+		        <li><a href="facebook"><img src="logo_facebook.png"></a></li>
+	        	<li><a href="instagram"><img src="logo_instagram.png"></a></li>
+	        	<li><a href="http://whatsapp.com"><img src="whatsapp.png" ></a></li>
+          	</ul>
+
+   </nav>
+        </div>
+        <div class="column">
+        <h3>Newslatter</h3>
+        <p>Recibe las últimas actualizaciones<br> directamente en tu bandeja de entrada.</p>
+        <form  method="post" action="enviar_consulta.php"> 
+            <input type="email" name="correo" placeholder="Tu dirección de correo electrónico" required>
+            <input type="submit" value="Suscribirse">
+        </form>
+        </div>
+        
+
+
+
+
+
+</footer>
+	
+
 </body>
 </html>
