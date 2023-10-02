@@ -26,12 +26,12 @@
 
 </head>
 <body style="background-color:#DFDFDF;">
-<header>
+<header class="sticky-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-white" >
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <span class="logo"><img src="Gestion Inmobiliaria.jpg" ></span>
+        <span class="logo"><img src="./img/Gestion Inmobiliaria.jpg" ></span>
         
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -42,7 +42,7 @@
                     <a class="nav-link" href="#Servicios">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Alquileres.html">Alquileres</a>
+                    <a class="nav-link" href="Alquileres.php">Alquileres</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Contacto">Contacto</a>
@@ -56,7 +56,7 @@
 
     <section id="inicio">
     <div class="contenedor">
-    <img src="1.jpg">
+    <img src="./img/1.jpg">
     </div>  
     </section>
 
@@ -68,7 +68,7 @@
    </div>
     
     <div id="contenido.management">
-      <img class= "management" src="management1.jpg"></img>
+      <img class= "management" src="./img/management1.jpg"></img>
     </div>
     </section>
 
@@ -97,27 +97,27 @@
   <!-- Slides del carrusel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="2.jpg" alt="Imagen 1">
+      <img src="./img/2.jpg" alt="Imagen 1">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="3.jpg" alt="Imagen 2">
+      <img src="./img/3.jpg" alt="img/Imagen 2">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="4.jpg" alt="Imagen 3">
+      <img src="./img/4.jpg" alt="img/Imagen 3">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="5.jpg" alt="Imagen 4">
+      <img src="./img/5.jpg" alt="img/Imagen 4">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="6.jpg" alt="Imagen 5">
+      <img src="./img/6.jpg" alt="Imagen 5">
       <div class="carousel-caption">
       </div>
     </div>
@@ -143,8 +143,8 @@
     <div class="form-group">
       <label for="nombre">Nombre y Apellido:</label>
       <input type="text" class="form-control" id="nombre" name="nombre" required maxlength="50">
-    </div>
-    <div class="form-group">
+</div>
+<div class="form-group">
       <label for="email">Correo electrónico:</label>
       <input type="email" class="form-control" id="email" name="email" required maxlength="100">
     </div>
@@ -152,6 +152,7 @@
       <label for="telefono">Telefono:</label>
       <input type="telefono" class="form-control" id="telefono" name="telefono" required maxlength="30">
     </div>
+   
     <div class="form-group">
       <label for="mensaje">Mensaje:</label>
       <textarea class="form-control" id="mensaje" name="mensaje" rows="10" required></textarea>
@@ -159,13 +160,13 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 
-  <?php
+</div>
+
+<?php
    if (isset($_GET['e']))
    echo "<h3>¡Consulta Enviada!</h3>";
   ?>
-
-
-</div>
+  
     </section>
 
 </main>
@@ -180,41 +181,11 @@
 
     <script src="Anime.js"></script> 
 
-    <footer id="footer">
+    
+    <?php
+include 'footer.html'
 
-        <div class="column">
-            <h3>Contactanos</h3> 
-            <p><i class="fas fa-phone"></i>    +34 634 9455 93</p>
-            <p><i class="fas fa-map-marker"></i>    Cardenal Almaraz, Salamanca. Cp. 37003 </p>
-            <p><i class="fas fa-envelope"></i>    belenbarrientos.0706@gmail.com </p>
-            
-        </div>
-        <div class="column">
-            <h3 >Redes Sociales</h3>
-            <nav id="redes">
-	          <ul id="botones_redes">
-		        <li><a href="facebook"><img src="logo_facebook.png"></a></li>
-	        	<li><a href="instagram"><img src="logo_instagram.png"></a></li>
-	        	<li><a href="http://whatsapp.com"><img src="whatsapp.png" ></a></li>
-          	</ul>
-
-   </nav>
-        </div>
-        <div class="column">
-        <h3>Newslatter</h3>
-        <p>Recibe las últimas actualizaciones<br> directamente en tu bandeja de entrada.</p>
-        <form  method="post" action="enviar_consulta.php"> 
-            <input type="email" name="correo" placeholder="Tu dirección de correo electrónico" required>
-            <input type="submit" value="Suscribirse">
-        </form>
-        </div>
-        
-
-
-
-
-
-</footer>
+    ?>
 	
 
 </body>

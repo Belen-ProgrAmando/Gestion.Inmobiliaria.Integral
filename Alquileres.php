@@ -30,7 +30,7 @@
 </head>
 <body>
     <header>
-        <img class="imagen" src="banner.jpg" ></img>
+        <img class="imagen" src="./img/banner.jpg" ></img>
         <nav class="navbar navbar-expand-lg navbar-light bg-white" >
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@
                         <a class="nav-link" href="#Alquileres">Alquileres</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/Gestion.Inmobiliaria.Integral-1/Index.php#Contacto">Contacto</a>
+                        <a class="nav-link" href="#Informacion">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -67,16 +67,16 @@
                         <div id="carousel1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="piso1/piso1a.jpg" alt="Imagen 1" class="imagen">
+                                    <img src="./img/piso1/piso1a.jpg" alt="Imagen 1" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso1/piso1b.jpg" alt="Imagen 2" class="imagen">
+                                    <img src="./img/piso1/piso1b.jpg" alt="Imagen 2" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso1/piso1c.jpg" alt="Imagen 3" class="imagen">
+                                    <img src="./img/piso1/piso1c.jpg" alt="Imagen 3" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso1/piso1d.jpg" alt="Imagen 4" class="imagen">
+                                    <img src="./img/piso1/piso1d.jpg" alt="Imagen 4" class="imagen">
                                 </div>
                             </div>
                         </div>
@@ -99,19 +99,19 @@
                         <div id="carousel1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="piso2/piso2a.jpg" alt="Imagen 1" class="imagen">
+                                    <img src="./img/piso2/piso2a.jpg" alt="Imagen 1" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso2/piso2b.jpg" alt="Imagen 2" class="imagen">
+                                    <img src="./img/piso2/piso2b.jpg" alt="Imagen 2" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso2/piso2c.jpg" alt="Imagen 3" class="imagen">
+                                    <img src="./img/piso2/piso2c.jpg" alt="Imagen 3" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso2/piso2d.jpg" alt="Imagen 4" class="imagen">
+                                    <img src="./img/piso2/piso2d.jpg" alt="Imagen 4" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso2/piso2e.jpg" alt="Imagen 5" class="imagen">
+                                    <img src="./img/piso2/piso2e.jpg" alt="Imagen 5" class="imagen">
                                 </div>
                             </div>
                         </div>
@@ -136,16 +136,16 @@
                         <div id="carousel1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="piso3/piso3a.jpg" alt="Imagen 1" class="imagen">
+                                    <img src="./img/piso3/piso3a.jpg" alt="Imagen 1" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso3/piso3b.jpg" alt="Imagen 2" class="imagen">
+                                    <img src="./img/piso3/piso3b.jpg" alt="Imagen 2" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso3/piso3c.jpg" alt="Imagen 3" class="imagen">
+                                    <img src="./img/piso3/piso3c.jpg" alt="Imagen 3" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso3/piso3d.jpg" alt="Imagen 4" class="imagen">
+                                    <img src="./img/piso3/piso3d.jpg" alt="Imagen 4" class="imagen">
                                 </div>
                                 
                             </div>
@@ -171,19 +171,19 @@
                         <div id="carousel1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="piso4/piso4a.jpg" alt="Imagen 1" class="imagen">
+                                    <img src="./img/piso4/piso4a.jpg" alt="Imagen 1" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso4/piso4b.jpg" alt="Imagen 2" class="imagen">
+                                    <img src="./img/piso4/piso4b.jpg" alt="Imagen 2" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso4/piso4c.jpg" alt="Imagen 3" class="imagen">
+                                    <img src="./img/piso4/piso4c.jpg" alt="Imagen 3" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso4/piso4d.jpg" alt="Imagen 4" class="imagen">
+                                    <img src="./img/piso4/piso4d.jpg" alt="Imagen 4" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso4/piso4e.jpg" alt="Imagen 5" class="imagen">
+                                    <img src="./img/piso4/piso4e.jpg" alt="Imagen 5" class="imagen">
                                 </div>
                             </div>
                         </div>
@@ -206,16 +206,16 @@
                         <div id="carousel1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="piso5/piso5a.jpg" alt="Imagen 1" class="imagen">
+                                    <img src="./img/piso5/piso5a.jpg" alt="Imagen 1" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso5/piso5b.jpg" alt="Imagen 2" class="imagen">
+                                    <img src="./img/piso5/piso5b.jpg" alt="Imagen 2" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso5/piso5c.jpg" alt="Imagen 3" class="imagen">
+                                    <img src="./img/piso5/piso5c.jpg" alt="Imagen 3" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso5/piso5d.jpg" alt="Imagen 4" class="imagen">
+                                    <img src="./img/piso5/piso5d.jpg" alt="Imagen 4" class="imagen">
                                 </div>
                                 
                             </div>
@@ -242,22 +242,22 @@
                         <div id="carousel1" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="piso6/piso6a.jpg" alt="Imagen 1" class="imagen">
+                                    <img src="./img/piso6/piso6a.jpg" alt="Imagen 1" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso6/piso6b.jpg" alt="Imagen 2" class="imagen">
+                                    <img src="./img/piso6/piso6b.jpg" alt="Imagen 2" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso6/piso6c.jpg" alt="Imagen 3" class="imagen">
+                                    <img src="./img/piso6/piso6c.jpg" alt="Imagen 3" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso6/piso6d.jpg" alt="Imagen 4" class="imagen">
+                                    <img src="./img/piso6/piso6d.jpg" alt="Imagen 4" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso6/piso6e.jpg" alt="Imagen 5" class="imagen">
+                                    <img src="./img/piso6/piso6e.jpg" alt="Imagen 5" class="imagen">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="piso6/piso6f.jpg" alt="Imagen 6" class="imagen">
+                                    <img src="./img/piso6/piso6f.jpg" alt="Imagen 6" class="imagen">
                                 </div>
                             </div>
                         </div>
@@ -292,22 +292,22 @@
                             <div id="carouselExample" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="2.jpg" class="d-block w-100" alt="Casa 1"><h5 class="card-title2">Habitacion en Paseo Canalejas</h5>
+                                        <img src="./img/2.jpg" class="d-block w-100" alt="Casa 1"><h5 class="card-title2">Habitacion en Paseo Canalejas</h5>
                                         <p class="card-text2">Amplia - solo chicos - Ubicación Centrica -Todo Incluido</p>
                                         <p class="card-text2"><strong>Precio: $350 Eur</strong></p>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="3.jpg" class="d-block w-100" alt="Habitacion en Carmelitas"><h5 class="card-title2">Habitacion en Carmelitas</h5>
+                                        <img src="./img/3.jpg" class="d-block w-100" alt="Habitacion en Carmelitas"><h5 class="card-title2">Habitacion en Carmelitas</h5>
                                         <p class="card-text2">Habitacion para Estudiantes con ubicación tranquila y pintoresca.</p>
                                         <p class="card-text2"><strong>Precio: 300 Eur</strong></p>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="4.jpg" class="d-block w-100" alt="Casa 2"><h5 class="card-title2">Habitacion Cerca a la Universidad</h5>
+                                        <img src="./img/4.jpg" class="d-block w-100" alt="Casa 2"><h5 class="card-title2">Habitacion Cerca a la Universidad</h5>
                                         <p class="card-text2">Amplia - All Inclusive - solo chicas</p>
                                         <p class="card-text2"><strong>Precio: 400 Eur</strong></p>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="7.jpg" class="d-block w-100" alt="Casa 2"><h5 class="card-title2">Habitacion en Gran Via</h5>
+                                        <img src="./img/7.jpg" class="d-block w-100" alt="Casa 2"><h5 class="card-title2">Habitacion en Gran Via</h5>
                                         <p class="card-text2">Habitacion matrimonial con Baño Privado - All Inclusive</p>
                                         <p class="card-text2"><strong>Precio: $500 Eur</strong></p>
                                     </div>
@@ -332,7 +332,7 @@
         <section id="Informacion">
             <div class="info">
               <h2>Solicita mas Informacion</h2>
-              <form action="procesar.php" method="post">
+              <form method="POST" action="consulta.php" >
                 <div class="form-group">
                   <label for="nombre">Nombre:</label>
                   <input type="text" class="form-control" id="nombre" name="nombre">
@@ -351,9 +351,13 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
-            </div>
-                </section>
+      </div>
 
+      <?php
+   if (isset($_GET['e']))
+   echo "<h4>¡Pronto nos contactaremos con usted!</h4>";
+  ?>
+        </section>
 
 
     </main>
@@ -373,7 +377,10 @@
    
 </body>
 
-<footer>
-    <p class="footer">copyright &copy;2023 Belen barrientos</p>
-</footer>
+    
+<?php
+include 'footer.html'
+
+?>
+
 </html>
