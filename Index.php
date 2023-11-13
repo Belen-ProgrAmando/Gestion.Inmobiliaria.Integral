@@ -20,16 +20,13 @@
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    
-
-
 </head>
+
 <body style="background-color:#DFDFDF;">
 <header class="sticky-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-white" >
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
         </button>
         <span class="logo"><img src="./img/Gestion Inmobiliaria.jpg" ></span>
         
@@ -76,7 +73,7 @@
     <span class="text-wrapper">
     <span class="letters">Propiedades</span>
     <span class="letters">Destacadas</span>
-    <span class="line"></span>
+    <hr class="line"></hr>
     </span>
     </h1>
 
