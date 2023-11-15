@@ -63,7 +63,8 @@
   }
 
   .card-body2{
-    width: 60%;
+    width: 100%;
+    max-width: 800px;
     height: auto;
     margin-left: auto;
     margin-right: auto;

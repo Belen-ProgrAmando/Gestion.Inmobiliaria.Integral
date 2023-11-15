@@ -46,7 +46,7 @@
                         <a class="nav-link" href="http://localhost/Gestion.Inmobiliaria.Integral-1/Index.php#Servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Alquileres">Alquileres</a>
+                        <a class="nav-link" href="#propiedades">Habitaciones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Informacion">Contacto</a>
